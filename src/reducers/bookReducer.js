@@ -14,7 +14,7 @@ const bookReducer = (state = initialState, action) => {
     case "REMOVE_BOOK":
       return {
         ...state,
-        cart: [state.cart.filter((item) => item.id !== action.payload.id)]
+        cart: state.cart.filter((item) => item.id !== action.payload.id)
       };
     default:
       return state;

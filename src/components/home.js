@@ -6,7 +6,7 @@ const home = (props) => {
   return (
     <div className="mt-3 d-flex row">
       {props.books.map((book) => (
-        <div key={book.id} className="card col-md-4">
+        <div key={book.id} className="card col-md-3">
           <img
             className="card-img-top m-3"
             alt="photo"
