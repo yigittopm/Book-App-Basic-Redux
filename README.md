@@ -6,6 +6,8 @@
     <img src="./project-img/home.png" />
 </p>
 
+<hr/>
+
 ## Cart Page
 
 <p>
